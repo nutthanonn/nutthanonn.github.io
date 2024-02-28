@@ -184,3 +184,5 @@ while flag[-1] != '}':
             print(flag)
             break
 ```
+
+> {: .prompt-tip }
