@@ -136,11 +136,11 @@ After analyzing the source code I see that the server is checking for `HTTP_TRAN
 
 The first vuln I aim to exploit is `Request Smuggling` it working but if you see into source code I can use unsavequery to query id 6 but they always send data back with.
 
-````php
+```php
 echo "
 <div class="results">No post id found.</div>
-";```
-````
+";
+```
 
 That mean I need to use `Blind SQL Injection` to get the flag.
 
@@ -185,4 +185,5 @@ while flag[-1] != '}':
             break
 ```
 
+> Flag: RESTRICTED
 > {: .prompt-tip }
